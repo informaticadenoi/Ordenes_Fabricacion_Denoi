@@ -1,0 +1,22 @@
+# Evitamos subir archivos de configuración local
+.env
+config.php
+
+# Evitamos subir caché de PHP
+*.log
+*.caché
+
+# Evitamos archivos de XAMPP
+xampp/
+htdocs/phpmyadmin/
+
+# Evitamos subir archivos de dependencias
+vendor/
+node_modules/
+
+# Evitar subir imagenes de dependencias
+uploads/
+
+# Evitar archivos del sistema
+.DS_Store
+Thumbs.db
